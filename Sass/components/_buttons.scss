@@ -1,0 +1,15 @@
+@import "./utilities/variables";
+button{
+    border: 1px solid transparent;
+    background-color: $light-blue;
+    color: $pale-blue;
+    padding: 0.2rem 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    //border-radius: ;
+
+    &:active{
+        border: none;
+    }
+}

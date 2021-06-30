@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 50%;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #969696;
+}
+.title span {
+  font-weight: bold;
+  color: #151f29;
+}
+
+.secondary {
+  color: #151f29;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.copyright {
+  color: Gray;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #4f7df3;
+}
+
+button {
+  border: 1px solid transparent;
+  background-color: #4f7df3;
+  color: #c2d3ff;
+  padding: 0.2rem 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:active {
+  border: none;
+}
+
+input {
+  border: 1px solid #c2d3ff;
+  padding: 0.7rem 2.5rem;
+  border-radius: 2rem;
+}
+
+.ping-main__container {
+  text-align: center;
+  margin-top: 3rem;
+}
+.ping-main__container .ping-img {
+  max-width: 5rem;
+  margin-bottom: 1rem;
+}
+.ping-main__container .ping-img img {
+  width: 100%;
+}
+.ping-main__container .ping-titles .title {
+  margin-bottom: 1rem;
+}
+.ping-main__container .ping-titles .secondary {
+  margin-bottom: 1rem;
+}
+
+.error-msg {
+  font-size: 12px;
+}
+
+.ping-text-box {
+  display: flex;
+  max-width: 25rem;
+}
+
+.ping-img-center {
+  margin-top: 2.5rem;
+}
+
+.ping-social {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.ping-social a {
+  margin: 1rem;
+}
+
+#error {
+  font-size: 12px;
+  color: red;
+  margin-right: 10rem;
+}
+
+@media screen and (max-width: 375px) {
+  .ping-text-box {
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 1.9rem;
+    padding: 0.6rem 6rem;
+  }
+
+  img {
+    width: 80%;
+  }
+}
+@media (max-width: 1440px) {
+  img {
+    width: 68%;
+  }
+
+  button {
+    padding: 0.6rem 6rem;
+  }
+
+  .ping-text-box {
+    max-width: 35rem;
+  }
+}
